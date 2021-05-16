@@ -1,0 +1,118 @@
+body{
+	font-family: 'Mukta', sans-serif;
+	font-size: 16px;
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+	
+}
+
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+.fejlec{
+	margin: 1rem 15rem;
+	margin-right: 20rem;
+	padding: 10px 40px;
+	background-color: #2F4F4F;
+	color:white;
+	border-radius: 15px;
+	-webkit-box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8); 
+	box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8);
+}
+nav{
+	margin: 1rem 15rem;
+	margin-left: 20rem;
+	padding: 0px;
+	background-color: #5F9EA0;
+	border-radius: 15px;
+	-webkit-box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8); 
+	box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8);
+	height: 40px;
+	
+
+
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline block;
+	float: right;
+	margin-top: 7px;
+	
+}
+nav ul a{
+	
+	padding:0px 40px;
+	text-decoration: none;
+	color: white;
+	border-radius: 15px;
+	margin:0;
+
+}
+nav ul a:hover, .active {
+	background-color: #2F4F4F;
+	
+	transition: 0.5s;
+}
+.bemutatkozo{
+	margin: 1rem 15rem;
+	margin-top: 40px;
+	padding: 20px 80px;
+	background-color: #2F4F4F;
+	color:white;
+	border-radius: 15px;
+	-webkit-box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8); 
+	box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8);
+	font-size:28px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.kepek{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 0 80px 20px 80px;
+	grid-column-gap: 10px;
+}
+
+.forras{
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.forras:hover{
+	color:grey;
+	transition: 0.3s;
+}
+footer{
+	background-color: #2F4F4F;
+	color:white;
+	text-align: center;
+}
+.doku{
+	margin: 1rem 15rem;
+	margin-top: 40px;
+	padding: 20px 80px;
+	background-color: #2F4F4F;
+	color:white;
+	border-radius: 15px;
+	-webkit-box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8); 
+	box-shadow: 11px 11px 29px -5px rgba(0,0,0,0.8);
+	font-size:16px;
+}
+.dokukep{
+	width: 70%;
+	max-height: 500px;
+	float: right;
+	margin: 10px;
+}
+.alcim{
+	font-size: 25px;
+
+}
